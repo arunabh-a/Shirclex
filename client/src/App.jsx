@@ -1,16 +1,22 @@
-import Canvas from './canvas'
-import Editor from './pages/editor'
-import Home from './pages/home'
+import Canvas from "./canvas"
+import Editor from "./pages/editor"
+import Home from "./pages/home"
+
+
+
+
+
 
 function App() {
 
   return (
-    <main className='app transition-all-ease-in'>
+    <main className="app transition-all ease-in">
       <Home />
       <Canvas />
       <Editor />
-
-      </main>
+      
+    </main>
   )
 }
+
 export default App
