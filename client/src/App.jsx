@@ -13,7 +13,7 @@ function App() {
     <main className="app transition-all ease-in">
       <Home />
       <Canvas />
-      <Editor />
+      <Editor /> 
       
     </main>
   )

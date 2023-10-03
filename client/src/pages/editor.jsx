@@ -9,12 +9,26 @@ import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants';
 import { fadeAnimation, slideAnimation } from '../config/motion';
 import { download } from '../assets';
 
-import { AiPicker, ColorPicker, FilePicker, Tab } from '../components';
+import { AiPicker, ColorPicker, CusButtn, FilePicker, Tab } from '../components';
 
 
 const Editor = () => {
+    const snap = useSnapshot(state);
     return (
-        <div>Editor</div>
+        <AnimatePresence>
+            {!snap.intro && (
+                <>
+                {/* <motion.div
+                    key = "custom"
+                    className = "absolute top-0 left-0 z-10"
+                    {...slideAnimation}
+                >
+
+                </motion.div> */}
+                </>
+            )}
+        </AnimatePresence>
+        
     )
 }
 
