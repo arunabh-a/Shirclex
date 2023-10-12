@@ -7,3 +7,4 @@ const editTabs = () => {
 }
 
 export default editTabs
+

@@ -3,10 +3,6 @@ import Editor from "./pages/editor"
 import Home from "./pages/home"
 
 
-
-
-
-
 function App() {
 
   return (
