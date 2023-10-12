@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Tab = () => {
+const editTabs = () => {
     return (
-        <div>Tab</div>
+        <div>Button</div>
     )
 }
 
-export default Tab
+export default editTabs

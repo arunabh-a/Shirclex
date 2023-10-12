@@ -26,7 +26,7 @@ const Home = () => {
                     <motion.div className='home-content' {...headContainerAnimation}>
                         <motion.div {...headTextAnimation}>
                             <h1 className='head-text'>
-                                Style <br className=':block hidden' /> Yourself
+                                Style <br/> Yourself
                             </h1>
                         </motion.div>
                         <motion.div className='flex flex-col gap-5' {...headContentAnimation} >

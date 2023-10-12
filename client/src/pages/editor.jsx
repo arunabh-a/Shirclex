@@ -10,6 +10,7 @@ import { fadeAnimation, slideAnimation } from '../config/motion';
 import { download } from '../assets';
 
 import { AiPicker, ColorPicker, CusButtn, FilePicker, Tab } from '../components';
+import editTabs from '../components/tab';
 
 
 const Editor = () => {
@@ -25,10 +26,10 @@ const Editor = () => {
                 >
                     <div className='flex items-center min-h-screen'>
                         <div className='editortabs-container tabs'>
-                            {EditorTabs.map((tab) =>(
+                            {EditorTabs.map((editTabs) =>(
                             <Tab
-                                key={Tab.name}
-                                tab={Tab}
+                                key={editTabs.name}
+                                tab={editTabs}
                                 handleClick={() =>  {}}
                             />
                             ))}
@@ -49,10 +50,10 @@ const Editor = () => {
                     className='filtertabs-container'
                     {...slideAnimation('up')}
                 >
-                {FilterTabs.map((tab) =>(
+                {FilterTabs.map((editTabs) =>(
                         <Tab
-                            key={Tab.name}
-                            tab={Tab}
+                            key={editTabs.name}
+                            tab={editTabs}
                             isFilterTab
                             isActiveTab
                             handleClick={() =>  {}}
