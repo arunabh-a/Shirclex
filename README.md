@@ -1,27 +1,36 @@
 # Shirclex : Style Yourself
-This is a Project i am making to learn react along with various packages such as framer motion, three js .etc
-Shirclex
+### This Project is made as a Starting Point of Learning React along side various Packages and Frameworks and will not be implemented in any Commercial Use
 
-Image
+![App Image](client/public/img.png)
 
-Acknowledgments
-	Link to Video
-	Video Instructor
-	
-Technologies Used:
-	React Three Fiber
-	Vite
-	Framer Motion
-	Tailwind
-	ThreeJS
+&nbsp;
 
-  NPM Packages
-    maath
-    valtio
+## Acknowledgments
+	- [Video](https://www.youtube.com/watch?v=ZqEa8fTxypQ)
+	- [Instructor](https://www.jsmastery.pro/)
+
+	&nbsp;
+
+
+## Technologies Used:
+	- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+	- [Vite](https://vitejs.dev/)
+	- [Framer Motion](https://www.framer.com/motion/)
+	- [Tailwind](https://tailwindcss.com/)
+	- [ThreeJS](https://threejs.org/)
+### NPM Packages
+    	[maath](https://github.com/pmndrs/maath)
+    	[Valtio](https://valtio.pmnd.rs/)
     
 
-To Clone and Use Locally
+## To Clone and Host Locally
 
-	Clone
+	```
+	 git clone https://github.com/arunabh-a/Shirclex.git
+	```
+
+	&nbsp;
 	
-	npm run start dev
+	``Navigate to 'client' in your Terminal and Enter:``
+
+	npm run dev
