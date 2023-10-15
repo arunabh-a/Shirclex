@@ -6,21 +6,21 @@
 &nbsp;
 
 ## Acknowledgments
-	- [Video](https://www.youtube.com/watch?v=ZqEa8fTxypQ)
-	- [Instructor](https://www.jsmastery.pro/)
+- [Video](https://www.youtube.com/watch?v=ZqEa8fTxypQ)
+- [Instructor](https://www.jsmastery.pro/)
 
 	&nbsp;
 
 
 ## Technologies Used:
-	- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
-	- [Vite](https://vitejs.dev/)
-	- [Framer Motion](https://www.framer.com/motion/)
-	- [Tailwind](https://tailwindcss.com/)
-	- [ThreeJS](https://threejs.org/)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [Vite](https://vitejs.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tailwind](https://tailwindcss.com/)
+- [ThreeJS](https://threejs.org/)
 ### NPM Packages
-    	[maath](https://github.com/pmndrs/maath)
-    	[Valtio](https://valtio.pmnd.rs/)
+-[maath](https://github.com/pmndrs/maath)
+-[Valtio](https://valtio.pmnd.rs/)
     
 
 ## To Clone and Host Locally
@@ -31,6 +31,6 @@
 
 	&nbsp;
 	
-	``Navigate to 'client' in your Terminal and Enter:``
+``Navigate to 'client' in your Terminal and Enter:``
 
 	npm run dev
