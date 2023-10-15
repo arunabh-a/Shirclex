@@ -18,10 +18,6 @@
 - [Framer Motion](https://www.framer.com/motion/)
 - [Tailwind](https://tailwindcss.com/)
 - [ThreeJS](https://threejs.org/)
-### NPM Packages
--[maath](https://github.com/pmndrs/maath)
--[Valtio](https://valtio.pmnd.rs/)
-    
 
 ## To Clone and Host Locally
 
