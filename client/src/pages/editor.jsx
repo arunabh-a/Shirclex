@@ -9,12 +9,39 @@ import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants';
 import { fadeAnimation, slideAnimation } from '../config/motion';
 import { download } from '../assets';
 
-import { AiPicker, ColorPicker, CusButtn, FilePicker, Tab } from '../components';
-import editTabs from '../components/tab';
-
+import { AiPicker, ColorPicker, CusButtn, FilePicker, Tab} from '../components';
 
 const Editor = () => {
     const snap = useSnapshot(state);
+
+    const [file, setFile] = useState('');
+
+    const [prompt, setPrompt] = useState('');
+
+    const [generatingImg, setGeneratingImg] = useState(false);
+
+    const [activeEditorTab, setActiveEditorTab] = useState("");
+    const [activeFilterTab, setActiveFilterTab] = useState({
+        logoShirt: true,
+        stylishShirt: false,
+    })
+
+    const generateTabContent = () => {
+        switch (activeEditorTab){
+            case "colorpicker":
+                return <ColorPicker />
+            
+            case "filepicker":
+                return <FilePicker />
+            
+            case "aipicker":
+                return <AiPicker />
+            
+            default:
+                return null;
+        }
+    }
+
     return (
         <AnimatePresence>
             {!snap.intro && (
@@ -26,13 +53,15 @@ const Editor = () => {
                 >
                     <div className='flex items-center min-h-screen'>
                         <div className='editortabs-container tabs'>
-                            {EditorTabs.map((editTabs) =>(
+                            {EditorTabs.map((tab) =>(
                             <Tab
-                                key={editTabs.name}
-                                tab={editTabs}
-                                handleClick={() =>  {}}
+                                key={tab.name}
+                                tab={tab}
+                                handleClick={() =>  setActiveEditorTab(tab.name)}
                             />
                             ))}
+
+                            {generateTabContent()}
                         </div>
                     </div>
                 </motion.div>
@@ -50,10 +79,10 @@ const Editor = () => {
                     className='filtertabs-container'
                     {...slideAnimation('up')}
                 >
-                {FilterTabs.map((editTabs) =>(
+                {FilterTabs.map((tab) =>(
                         <Tab
-                            key={editTabs.name}
-                            tab={editTabs}
+                            key={tab.name}
+                            tab={tab}
                             isFilterTab
                             isActiveTab
                             handleClick={() =>  {}}
