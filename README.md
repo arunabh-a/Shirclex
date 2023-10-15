@@ -1,4 +1,4 @@
-# Shirclex : Style Yourself
+# Shirclex : A ThreeJS Application for rendering a 3D Shirt Models with Logos and Textures 
 ### This Project is made as a Starting Point of Learning React along side various Packages and Frameworks and will not be implemented in any Commercial Use
 
 ![App Image](client/public/img.png)
