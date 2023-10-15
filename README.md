@@ -21,11 +21,9 @@
 
 ## To Clone and Host Locally
 
-	```
 	 git clone https://github.com/arunabh-a/Shirclex.git
-	```
 
-	&nbsp;
+&nbsp;
 	
 ``Navigate to 'client' in your Terminal and Enter:``
 
