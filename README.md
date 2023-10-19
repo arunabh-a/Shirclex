@@ -25,6 +25,6 @@
 	git clone https://github.com/arunabh-a/Shirclex.git
 
 	
-`Navigate to 'client' in your Terminal and Enter:`
+>Navigate to 'client' in your Terminal and Enter:
 
 	npm run dev
