@@ -9,7 +9,7 @@
 - [Video](https://www.youtube.com/watch?v=ZqEa8fTxypQ)
 - [Instructor](https://www.jsmastery.pro/)
 
-	&nbsp;
+&nbsp;
 
 
 ## Technologies Used:
