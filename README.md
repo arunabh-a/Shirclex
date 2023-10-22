@@ -1,7 +1,7 @@
 # Shirclex
 ### This Project is made as a Starting Point of Learning React along side various Packages and Frameworks and will not be implemented in any Commercial Use
 
-![App Image](client/public/img.png)
+![App Image](client/public/image.png)
 
 &nbsp;
 
