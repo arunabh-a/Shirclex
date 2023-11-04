@@ -39,12 +39,19 @@ const Editor = () => {
                         />
             
             case "aipicker":
-                return <AiPicker />
+                return <AiPicker 
+                    prompt = {prompt}
+                    setPrompt = {setPrompt}
+                    generatingImg = {generatingImg}
+                    handleSubmit = {handleSubmit}
+
+                    />
             
             default:
                 return null;
         }
     }
+
 
     const handleDecals = (type, result) => {
         const decalType = DecalTypes[type];
@@ -77,7 +84,20 @@ const Editor = () => {
         })
     }
 
-    
+    const handleSubmit = async (type)=> {
+        if(!prompt) return alert("Please enter a Prompt.");
+
+        try{
+            
+        }
+        catch (error){
+            alert(error)
+        }
+        finally {
+            setGeneratingImg(false);
+            setActiveEditorTab("");
+        }
+    }
 
 
     const readFile = (type) => {
