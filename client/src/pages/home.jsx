@@ -42,8 +42,7 @@ const Home = () => {
                         </motion.div>
                     </motion.div>
                 </motion.div>
-            )
-            }
+            )}
         </AnimatePresence>
 
     )
