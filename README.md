@@ -1,8 +1,11 @@
+<div align="center">
 # Shirclex
 ### This Project is made as a Starting Point of Learning React along side various Packages and Frameworks and will not be implemented in any Commercial Use
 
-![App Image](client/public/image.png)
-
+<p align= "center">
+	<img alt= "App Page" src="client/dist/image.png">
+</p>
+</div>
 &nbsp;
 
 ## Acknowledgments
