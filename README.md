@@ -25,10 +25,25 @@
 
 &nbsp;
 ## To Clone and Host Locally
+```bash
+git clone https://github.com/arunabh-a/Shirclex.git
+```
 
-	git clone https://github.com/arunabh-a/Shirclex.git
+Go to the project directory
 
-	
->Navigate to 'client' in your Terminal and Enter:
+```bash
+cd Shirclex
+```
 
-	npm run dev
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
