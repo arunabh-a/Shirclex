@@ -1,7 +1,11 @@
-# Shirclex
-### This Project is made as a Starting Point of Learning React along side various Packages and Frameworks and will not be implemented in any Commercial Use
+<div align="center">
+<h1>Shirclex</h1>
+<h3> This Project is made as a Starting Point of Learning React along side various Packages and Frameworks and will not be implemented in any Commercial Use</h3>
+<p align= "center">
+	<img alt= "App Page" src="client/public/image.png">
+</p>
+</div>
 
-![App Image](client/public/image.png)
 
 &nbsp;
 
@@ -21,10 +25,25 @@
 
 &nbsp;
 ## To Clone and Host Locally
+```bash
+git clone https://github.com/arunabh-a/Shirclex.git
+```
 
-	git clone https://github.com/arunabh-a/Shirclex.git
+Go to the project directory
 
-	
->Navigate to 'client' in your Terminal and Enter:
+```bash
+cd Shirclex
+```
 
-	npm run dev
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
